@@ -1,0 +1,27 @@
+.man-main {
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: center;
+}
+.man-sub {
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 1%;
+}
+.man-workout {
+  background-color: #059;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.man-workout-complex {
+  background-color: #eee;
+  font-weight: bold;
+  opacity: 0.6;
+}
+.man-workout-p {
+  background-color: whitesmoke;
+  font-weight: bold;
+  opacity: 0.9;
+  border: 1px solid lightgray;
+}

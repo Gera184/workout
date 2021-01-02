@@ -1,0 +1,14 @@
+img {
+  width: 100%;
+  padding-top: 10%;
+}
+.program-main {
+  text-align: center;
+}
+
+.program-sub {
+  text-align: center;
+  background-color: #059;
+  color: whitesmoke;
+  padding: 1%;
+}

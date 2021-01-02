@@ -1,0 +1,95 @@
+a {
+  text-decoration: none !important;
+}
+
+.navbar_icons {
+  color: white;
+  opacity: 0.7;
+}
+.navbar_icons :hover {
+  color: gray;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap");
+
+.hamburger-icon {
+  z-index: 1;
+}
+
+input.hamburger-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+
+.hamburger-icon span {
+  height: 5px; /*change to % */
+  width: 40px; /*change to % */
+  background-color: lightgray;
+  display: block;
+  margin: 5px 0px 5px 0px;
+  transition: 0.7s ease-in-out;
+  transform: none;
+}
+
+#openmenu:checked ~ .menu-pane {
+  left: -10%;
+  transform: translateX(-5vw);
+}
+
+#openmenu:checked ~ .hamburger-icon span:nth-of-type(2) {
+  transform: translate(0%, 175%) rotate(-45deg);
+  background-color: white;
+}
+
+#openmenu:checked ~ .hamburger-icon span:nth-of-type(3) {
+  transform: rotate(45deg);
+  background-color: white;
+}
+
+#openmenu:checked ~ .hamburger-icon span:nth-of-type(1) {
+  opacity: 0;
+}
+
+#openmenu:checked ~ .hamburger-icon span:nth-of-type(4) {
+  opacity: 0;
+}
+
+.menu-pane {
+  position: absolute;
+  transform: translateX(-105%);
+  transform-origin: (0, 0);
+  width: 115%;
+
+  transition: 0.6s ease-in-out;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.menu-pane-sub {
+  color: white;
+  text-align: center;
+  z-index: 1;
+  opacity: 1;
+  padding-left: 15%;
+  padding-top: 17%;
+
+  margin: 0;
+}
+
+.p-icons {
+  color: white;
+  font-size: xx-large;
+}
+.menu-pane-icons {
+  color: lightslategray;
+  padding: 5%;
+  size: 150%;
+}
+
+.door-icon {
+  color: lightyellow;
+}
+
+.door-icon :hover {
+  color: orange;
+}
